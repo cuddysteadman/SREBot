@@ -37,4 +37,4 @@ async def on_message(message):
     await message.channel.send(("The latest alpharelease is " + latest_alpharelease + ". You can find it in {0.mention}.".format(client.get_channel(829393703483211807))))
   if message.content.startswith("$sre prerelease"):
     await message.channel.send(("The latest prerelease is " + latest_prerelease + ". You can find it in {0.mention}.").format(client.get_channel(825539271431553024)))
-client.run('ODI2MTUyNTQ2ODYyNzU5OTY2.YGIUhA.Wpp2npCFfpy8RdQ_1Gk0wB_HYRQ')
+client.run('token (not put on GitHub for privacy)')
